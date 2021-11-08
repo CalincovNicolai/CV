@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    font-family: 'Oswald', serif;
+}
+
+.menu {
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+li>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+
+nav li {
+    list-style: none;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: rgb(187, 187, 187);
+    font-size: 0.75em;
+    font-family: 'Source Sans Pro',
+    serif;
+}
+
+#site_name {
+    color: white;
+    font-size: 1.1em;
+}
+
+#logo-1 {
+    width: 150px;
+    height: 90px;
+}
+
+.img1 {
+    background-image: url('../assets/background_project.jpg');
+    width: 2560px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-text-projects {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-about {
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    width: 2560px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 1080px;
+}
+
+.bg-text-about {
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section_headline {
+    color: rgb(63, 63, 63);
+    font-size: 3em;
+}
+
+#about_h3 {
+    color: rgb(151, 151, 151);
+    font-size: 1.8em;
+    font-family: 'Mukta', serif;
+    font-weight: 300;
+    font-family: 'Source Sans Pro',
+    serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    font-family: 'Source Sans Pro',
+    serif;
+}
+
+a.button_about {
+    display:inline-block;
+    padding:0.5em 1em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto', sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#00c3e6;
+    transition: all 0.2s;
+}
+
+a.button_about:hover {
+    background-color: #c64040;
+}
+
+.img2 {
+    background-image: url('../assets/it_conference.jpg');
+    width: 2560px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.bg-text-stories {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.button_play {
+    display: inline-block;
+    padding: 0.42em 0.7em;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 100px;
+    color: #FFFFFF;
+    background-color: #00c3e6;
+    transition: all 0.2s;
+}
+
+a.button_play:hover {
+    background-color: #c64040;
+}
+
+#stories_h1 {
+    color: white;
+    font-size: 4em;
+    padding: 0px 0px 50px 0px;
+}
+
+#stories_h2 {
+    color: rgb(235, 235, 235);
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro',
+    serif;
+    font-weight: 300;
+    padding: 100px 0px 0px 0px;
+}
+
+address {
+    background-color: rgb(90, 90, 90);
+    position: relative;
+    padding: 30px 0px 30px 200px;
+    font-size: 15px;
+    text-align: left;
+}
+
+#logo-2 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+#footer-title {
+    display: inline;
+    white-space: nowrap;
+    color: rgb(235, 235, 235);
+    font-size: 1.5em;
+}
+
+#footer-paragraph {
+    color: rgb(163, 163, 163);
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro',
+    serif;
+    line-height: 1.5;
+}
